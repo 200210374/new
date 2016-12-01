@@ -1,0 +1,41 @@
+<% include partials/header.ejs %>
+<h1>Directory Listing</h1>
+
+<form method="post">
+    <div class="form-group">
+        <label for="name" class="col-sm-2 control-label">Name:</label>
+        <input name="name" id="name" required />
+    </div>
+    <div class="form-group">
+        <label for="Type" class="col-sm-2 control-label">Type:</label>
+        <select name="Type" id="Type">
+            <option>Resteraunt</option>
+            <option>Grocery</option>
+            <option>Fast Food</option>
+        </select>
+    </div>
+
+
+    <div class="form-group">
+        <label for="Owner" class="col-sm-2 control-label">Owner:</label>
+        <input name="Owner" id="Owner" required/>
+
+    </div>
+
+    <div class="form-group">
+        <label for="Contact" class="col-sm-2 control-label">Contact:</label>
+        <input name="Contact" id="Contact" required/>
+
+    </div>
+
+    <div class="form-group">
+        <label for="Opening" class="col-sm-2 control-label">Grand Opening Date:</label>
+        <input name="Opening" id="opening" required/>
+
+    </div>
+
+
+    <button class="btn btn-success col-sm-offset-2">Save</button>
+</form>
+
+<% include partials/footer.ejs %>

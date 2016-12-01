@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!--
+filename:directory
+Author:Brandon Roy
+
+websitename:
+
+description:
+THis will be the business directory lissting page
+-->
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>fast food directory listing</title>
+
+</head>
+<body>
+
+
+<h1>directory listing</h1>
+
+
+
+<% include partials/header.ejs %>
+
+<h1><%= title %></h1>
+<a href="/drinks/add">Add a Drink</a>
+<table class="table table-striped">
+    <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Owner</th>
+        <!-- if login is true hide edit and delete-->
+
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+    <% for (var i=0; i < directory.length; i++) { %>
+    <tr>
+        <td><%= directory[i].Name %></td>
+        <td><%= directory[i].Type %></td>
+        <td><%= directory[i].Owner %></td>
+        <td><%= directory[i].Opening %></td>
+        <td><%= directory[i].Contact %></td>
+
+
+        <td><a href="/directory/<%= directory[i]._id %>">Add</a></td>
+        <td><a href="/directory/<%= directory[i]._id %>">Edit</a></td>
+        <td><a href="/directory/delete/<%= directory[i]._id %>" class="confirmation">Delete</a></td>
+    </tr>
+    <% } %>
+</table>
+
+<% include partials/footer.ejs %>
+
+
+
+
+
+
+</body>
+</html>

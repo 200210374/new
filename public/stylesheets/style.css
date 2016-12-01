@@ -1,0 +1,67 @@
+/*
+filename:Style.css
+Author:Brandon Roy
+
+websitename:businessDirectory
+
+description:
+stylesheet that changes how the website will look
+*/
+
+
+title {
+
+  color:gray;
+
+}
+
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+nav {
+
+  border:1px solid black;  padding:2px;
+  color:blue;
+  text-align: center;
+}
+
+h3 { color: #00B7FF;
+  text-align: center;}
+
+li {
+  text-align: center;
+
+}
+
+h1 {
+  color: #00B7FF;
+  text-align: center;
+}
+
+h2 {
+color: darkcyan;
+  text-align: center;
+
+
+}
+
+p{text-align: center;
+
+
+}
+a {text-align: center;}
+
+form {text-align: center;}
+
+p {
+
+  color: darkred;
+  text-align: center;
+
+
+}
+
+

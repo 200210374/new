@@ -1,0 +1,53 @@
+<!--
+filename:header.ejs
+Author:Brandon Roy
+
+websitename:BrandonRoyPublicProfile
+
+description:
+THis is the header file it will have a header that will have a navbar
+-->
+
+
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+                <span class="glyphicon glyphicon glyphicon-tree-deciduous"></span>
+
+            </a>
+        </div>
+<h2>Pages</h2>
+
+        <ul class="nav navbar-nav">
+            <li><a href="/">Index</a></li>
+            <li><a href="/home">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="./contact">Contact</a></li>
+            <li><a href="./services">Services</a></li>
+        </ul>
+
+    </div>
+</nav>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='style.css' />
+
+
+    <link type="text/css" rel="stylesheet" href="/stylesheets/style.css"/>
+</head>
+<body>
+
+
+<h2>Resteraunt business directory</h2>
+
+</body>
+
+
+<footer><% include ./partials/footer %></footer>
