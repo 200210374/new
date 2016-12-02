@@ -1,5 +1,6 @@
-
-
+/**
+ * Created by Brandon Roy on 26/11/2016.
+ */
 
 module.exports = {
   db: 'mongodb://<dbuser>:<dbpassword>@ds157487.mlab.com:57487/directory',
