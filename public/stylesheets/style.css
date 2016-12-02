@@ -11,20 +11,20 @@ stylesheet that changes how the website will look
 
 title {
 
-  color:gray;
+  color:darkslategray;
 
 }
 
 
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 nav {
 
   border:1px solid black;  padding:2px;
-  color:blue;
+  color:saddlebrown;
   text-align: center;
 }
 
@@ -58,7 +58,7 @@ form {text-align: center;}
 
 p {
 
-  color: darkred;
+  color: darkslategray;
   text-align: center;
 
 

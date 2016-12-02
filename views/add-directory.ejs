@@ -1,11 +1,21 @@
-<% include partials/header.ejs %>
+
+
+
+
+
+
 <h1>Directory Listing</h1>
 
+
+<% include partials/header.ejs %>
+
+<!--THis form will add to the mlab database-->
 <form method="post">
     <div class="form-group">
         <label for="name" class="col-sm-2 control-label">Name:</label>
         <input name="name" id="name" required />
     </div>
+
     <div class="form-group">
         <label for="Type" class="col-sm-2 control-label">Type:</label>
         <select name="Type" id="Type">
